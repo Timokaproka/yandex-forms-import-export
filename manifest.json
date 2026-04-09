@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Yandex Forms Migrator",
+  "version": "1.0",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["https://forms.yandex.ru/*"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body { width: 200px; padding: 10px; font-family: sans-serif; }
+    button { width: 100%; margin: 5px 0; padding: 8px; cursor: pointer; }
+    #status { font-size: 12px; color: #666; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h3>Формы: Миграция</h3>
+  <button id="export">Экспортировать JSON</button>
+  <hr>
+  <input type="file" id="fileInput" style="display:none" accept=".json">
+  <button id="import">Импортировать из файла</button>
+  <div id="status"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
